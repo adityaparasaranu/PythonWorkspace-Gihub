@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh12760\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 To create a exe file in Windows using python, type the following in command prompt.\
+\
+1. First install the \'93pyinstaller\'94 using the pip command.\
+pip3.9 install pyinstaller\
+\
+2. Go to the directory where there is the app that should be converted to an exe using the command \'93cd /d <E: or F: or something> \'93.Then type the below command to convert the script to an exe.\
+pyinstaller.exe --onefile YourAppName>\
+\
+3. If you want to keep an icon to your exe then leave the step 2 and type the below command. The image that you want to keep as icon should be in \'93ico\'94 format. To convert an jpg file to ico go to ico converter website.\
+pyinstaller.exe --onefile --icon=YourIcon.ico YourAppName \
+\
+4. Now the exe file would be created in the \'93dist\'94 folder. After moving or copying the exe file to some other destination delete the unwanted files and folders like \'93build\'94 and \'93dist\'94 folders.\
+\
+Note: If your exe file is to be interact with an database or txt file, means keep both the exe and that txt file in the same folder. Else it would show an \'93FileNotFoundError\'94.\
+\
+\
+That\'92s it ! Your exe file has been created successfully.}

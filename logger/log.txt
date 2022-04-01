@@ -1,0 +1,8 @@
+20-04-2021 20:38:41 INFO     [logger_sample.py:10] This is logger info msg
+20-04-2021 20:38:41 WARNING  [logger_sample.py:11] This is a warning msg. Be Careful
+20-04-2021 20:38:41 DEBUG    [logger_sample.py:12] This is debug
+20-04-2021 20:38:41 CRITICAL [logger_sample.py:13] This is Critical
+20-04-2021 20:38:57 INFO     [logger_sample.py:11] This is logger info msg
+20-04-2021 20:38:57 WARNING  [logger_sample.py:12] This is a warning msg. Be Careful
+20-04-2021 20:38:57 DEBUG    [logger_sample.py:13] This is debug
+20-04-2021 20:38:57 CRITICAL [logger_sample.py:14] This is Critical

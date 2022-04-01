@@ -1,0 +1,5 @@
+name,age,occupation
+aditya,12,learing python
+aravind,15,studying 10th standard
+gomathi,41,python devolper
+ulaganathan,42, java devolper

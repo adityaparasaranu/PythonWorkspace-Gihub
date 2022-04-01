@@ -1,0 +1,5 @@
+print ("Enter a \"Name\" below")
+name1 = input()
+print ("Enter another \"Name\" below")
+name2 = input()
+print (name2 in name1)
