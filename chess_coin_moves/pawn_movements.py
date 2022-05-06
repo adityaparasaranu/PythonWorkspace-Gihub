@@ -12,7 +12,7 @@ for i in list:
         elif int(c_p[-1]) == 2:
             print("The possible Movement is : ", c_p[0], int(c_p[-1]) + 1)
             print(c_p[0], int(c_p[-1]) + 2)
-        elif int(c_p[-1]) > 2 and int(c_p[-1]) <= 7 :
+        elif 2 < int(c_p[-1]) <= 7:
             print(c_p[0], int(c_p[-1]) + 1)
         else:
             print("No movement possible")
